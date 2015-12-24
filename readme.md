@@ -15,6 +15,7 @@ So instead, it was suggested that I "shuffle" the array by picking two random nu
 Anyway, the random images generate, and when the user clicks one of the images, the following occurs:
 - the pic is highlighted in yellow,
 - one vote is added to the kitty image object array,
+- the chart refreshes to show the new data,
 - and one vote is added to the kitty image key in the user's tracker object.
 
 I thought about dynamically creating objects for each kitty image upon initial click so I wouldn't have to write so much repeating code, but one, that proved to be a little difficult to pull off, and two, I'd like to show if there are 0 votes for a particular kitten in my chart.
